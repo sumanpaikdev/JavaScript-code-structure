@@ -1,0 +1,8 @@
+.count{
+    width: 400px;
+    height: 400px;
+    background-color: lightgreen;
+    margin: 30px auto;
+    padding: 30px;
+    text-align: center;
+}
