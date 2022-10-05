@@ -18,7 +18,7 @@ h1 {
 }
 
 .increment,
-.decrement {
+.decrement, .save-item {
     width: 170px;
     padding: 20px 0px;
     font-size: 20px;
@@ -33,6 +33,13 @@ h1 {
 
 }
 
+.save-item{
+    background-color: rgb(4, 68, 4);
+    color: white;
+}
+.save-item:active{
+    background-color: rgb(0, 144, 0);
+}
 .decrement:hover {
     background-color: rgb(239, 188, 188);
 

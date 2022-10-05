@@ -11,3 +11,7 @@ function decrementCount() {
     document.getElementById("count").innerHTML = numCount;
 
 }
+
+function save() {
+    console.log(numCount)
+}
