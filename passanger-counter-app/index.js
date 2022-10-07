@@ -14,6 +14,7 @@ function decrement() {
 function saveitem() {
     // console.log(number);
     let saveCount = document.getElementById("count--record");
-    saveCount.innerText += number + " - ";
+    // saveCount.innerText += number + " - ";
+    saveCount.textContent += number + " - ";
 
 }
