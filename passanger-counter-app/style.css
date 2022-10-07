@@ -1,59 +1,56 @@
-.container {
-    width: 400px;
-    height: 400px;
-    margin: 30px auto;
-    background-image: url(https://images.unsplash.com/photo-1664568363162-4cdb797204a0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60);
-    padding: 30px;
-    text-align: center;
-    color: white;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.app--container{
+    background-image: linear-gradient(to bottom right, rgb(98, 5, 98), black);
+    width: 380px;
+    padding: 20px 20px;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    text-align: center;
     justify-content: center;
-
-}
-
-h1 {
-    font-size: 40px;
-}
-
-.increment,
-.decrement, .save-item {
-    width: 170px;
-    padding: 20px 0px;
-    font-size: 20px;
-    font-weight: bold;
-    background-color: lightcoral;
-    margin: 5px;
-    border: none;
-    outline: none;
-    border-radius: 9px;
-    border: 3px solid white;
-    user-select: none;
-
-}
-
-.save-item{
-    background-color: rgb(4, 68, 4);
+    align-items: center;
     color: white;
+    font-family: cursive;
+    margin: 10px auto;
+    border-radius: 7px;
 }
-.save-item:active{
-    background-color: rgb(0, 144, 0);
+.increment, .decrement{
+    margin: 5px;
+    padding: 10px;
+    width: 170px;
+    background-color: rgb(0, 179, 255);
+    color: white;
+    font-family: cursive;
+    border: none;
+    border-radius: 7px;
+    outline: none;
 }
-.decrement:hover {
-    background-color: rgb(239, 188, 188);
+.increment:hover, .decrement:hover{
+    background-color: rgb(0, 98, 255);
+}
+.increment:active, .decrement:active{
+    background-color: rgb(200, 200, 200);
+}
+.Save{
+    margin: 7px;
+    padding: 10px;
+    width: 170px;
+    background-color: rgb(0, 177, 15);
+    font-family: cursive;
+    border-radius: 7px;
+    outline: none;
+    border: none;
 
 }
-.decrement:active{
-    border: 3px solid rgb(255, 0, 0);
-    background-color: rgb(241, 151, 151);
-    color: rgb(237, 237, 237);
+.Save:hover{
+    background-color: rgb(106, 255, 37);
 }
-.increment:active{
-    border: 3px solid rgb(255, 0, 0);
-    background-color: rgb(241, 151, 151);
-    color: rgb(237, 237, 237);
+.Save:active{
+    background-color: rgb(255, 255, 255);
 }
-.increment:hover {
-    background-color: rgb(239, 188, 188);
+.count--record{
+    margin: 10px;
 }

@@ -1,20 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Counter App</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
-    <div class="container">
-        <h1>This is counter app</h1>
-        <h1 id="count">0</h1>
-        <button class="increment"  onclick="incrementCount()">Increment</button>
-        <button class="decrement" onclick="decrementCount()">Decrement</button>
-        <button class="save-item" onclick="save()">SAVE</button>
+    <div class="app--container">
+        <h1 class="heading--content">Counter App</h1>
+        <h2 id="count--element">0</h2>
+        <button class="increment" onclick="increment()">Increment</button>
+        <button class="decrement" onclick="decrement()">Decrement</button>
+        <button class="Save" onclick="saveitem()">Save</button>
+        <p id="count--record">Previous Count Record : </p>
     </div>
     <script src="./index.js"></script>
 </body>
+
 </html>

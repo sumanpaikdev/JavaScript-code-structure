@@ -1,17 +1,19 @@
-let numCount = 0;
-//increment
-function incrementCount() {
-    numCount = (numCount + 1);
-    document.getElementById("count").innerHTML = numCount;
+let number = 0;
+let setCount = document.getElementById("count--element");
+
+function increment() {
+    number += 1;
+    setCount.innerText = number;
 
 }
-//decrement
-function decrementCount() {
-    numCount = (numCount - 1);
-    document.getElementById("count").innerHTML = numCount;
-
+function decrement() {
+    number -= 1;
+    setCount.innerText = number;
 }
 
-function save() {
-    console.log(numCount)
+function saveitem() {
+    // console.log(number);
+    let saveCount = document.getElementById("count--record");
+    saveCount.innerText += number + " - ";
+
 }
