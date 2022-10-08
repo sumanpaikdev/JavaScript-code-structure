@@ -1,0 +1,41 @@
+<html>
+
+<head>
+    <title>Basketball Scoreboard</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+    <div class="container">
+        <div class="home">
+            <h1>HOME</h1>
+            <button id="home--btn">0</button>
+            <div class="operate">
+                <button id="btn--one" onclick="plusOne()">+1</button>
+                <button id="btn--two" onclick="plusTwo()">+2</button>
+                <button id="btn--three" onclick="plusThree()">+3</button>
+            </div>
+        </div>
+
+        <div class="guest">
+            <h1>GUEST</h1>
+            <button id="guest--btn">0</button>
+            <div class="operate">
+                <button id="btn--one" onclick="guestPlusOne()">+1</button>
+                <button id="btn--two" onclick="guestPlusTwo()">+2</button>
+                <button id="btn--three" onclick="guestPlusThree()">+3</button>
+            </div>
+        </div>
+    </div>
+    <div class="container-two">
+
+        <button class="save--btn" onclick="saveClick()">SAVE</button>
+        <p id="home--count" onclick="homeCount">Home Count : </p>
+        <p id="guest--count" onclick="guestCount">Guest Count : </p>
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+
+</html>

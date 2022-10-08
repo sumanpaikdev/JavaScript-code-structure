@@ -16,5 +16,7 @@ function saveitem() {
     let saveCount = document.getElementById("count--record");
     // saveCount.innerText += number + " - ";
     saveCount.textContent += number + " - ";
+    setCount.textContent = 0;
+    number = 0;
 
 }
