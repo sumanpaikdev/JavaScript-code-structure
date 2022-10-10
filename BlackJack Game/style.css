@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* user-select: none; */
+}
+
+.container{
+    background-image: url(./eyestetix-studio-m0EzHtexapU-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center cover;
+    max-width: 540px;
+    height: 500px;
+    margin: 30px auto;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 9px;
+    box-shadow: 0px 3px 18px 6px rgba(31, 31, 31, 0.726);
+}
+.container--2{
+    background-color: rgba(49, 48, 48, 0.914);
+    border-radius: 9px;
+    width: 450px;
+    height: 300px;
+    padding: 10px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 0px 3px 18px 6px rgba(108, 108, 108, 0.129);
+    border: 2px solid rgb(156, 156, 156);
+
+    
+}
+.heading{
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    color: rgb(255, 182, 126);
+    border-bottom: 3px solid rgb(255, 157, 0);
+    margin-bottom: 20px ;
+    text-shadow: 2px 3px 3px black;
+}
+.first--para, .second--para, .third--para{
+    font-family: 'Poppins', sans-serif;
+    color:  antiquewhite;
+}
+.first--para{
+    color: antiquewhite;
+    font-size: 29px;
+    margin-bottom: 19px;
+    font-family: cursive;
+}
+.second--para{
+    margin-bottom: 12px;
+    font-size: 20px;
+    color: rgb(255, 211, 128);
+}
+.third--para{
+    font-size: 20px;
+    color: greenyellow;
+}
+.btn{
+    width: 200px;
+    height: 99px;
+    margin-top: 25px;
+    border-radius: 7px;
+    font-size: 17px;
+    background-color: rgb(255, 191, 107);
+    border: none;
+    font-weight: bold;
+    color: rgb(53, 53, 53);
+    box-shadow: 0px 17px 10px -10px rgb(121, 119, 119);
+    transition-duration: .2s;
+    font-family: cursive;
+}
+.btn:hover{
+    box-shadow: 0px 37px 20px -20px rgb(116, 116, 116);
+    transform: translate(0px, -3px) scale(1.1);
+}
+.btn:active{
+    background-color: rgba(255, 255, 255, 0.241);
+    box-shadow: 0px 37px 20px -20px rgba(255, 255, 255, 0.066);
+
+    
+}
