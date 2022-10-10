@@ -28,6 +28,7 @@ let goForward = true
 let randNum1
 let randNum2 
 let sum
+let printMessage = ""
 
 let firstPara = document.getElementById("f1-para")
 let secondPara = document.getElementById("f2-para")
@@ -44,13 +45,14 @@ function startGame() {
     thirdPara.textContent = "Sum : " + sum
 
     if (sum <= 15) {
-        firstPara.textContent = "Draw a new card? 🙂🙂🙂"
+         printMessage = "Draw a new card? 🙂🙂🙂"
     } else if (sum === 16) {
-        firstPara.textContent = "Wohoo! You've got Blackjack! 🥳🥳🥳"
+        printMessage = "You've got Blackjack! 🥳🥳🥳"
         stateValue = true
     } else {
-        firstPara.textContent = "You're out of the game! 😭😭😭";
+        printMessage = "You're out of the game! 😭😭😭";
         goForward = false
     }
+    firstPara.textContent = printMessage
 
 }
