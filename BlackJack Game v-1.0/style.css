@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+.container{
+    background: url("./pranjall-kumar-Pdp_FstCW1c-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 450px;
+    border: 1px solid gray;
+    height: 420px;
+    margin: 20px auto;
+    border-radius: 9px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.containerTwo{
+    background-color: rgba(44, 44, 44, 0.825);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    height: 256px;
+    border-radius: 9px;
+    border: 2px solid gray;
+    
+}
+h1{
+    color: skyblue;
+    text-shadow: 2px 2px 3px black;
+    margin-bottom: 20px;
+}
+#description, #cardNumber, #sum{
+    color: white;
+    font-size: 20px;
+    margin: 3px;
+}
+#description{
+    color: skyblue;
+}
+.start, .newStart{
+    width: 150px;
+    height: 40px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: skyblue;
+    font-weight: bold;
+    color: rgb(58, 58, 58);
+}
+.start:active, .newStart:active{
+    background-color: white;
+    transition-duration: .2s;
+}
