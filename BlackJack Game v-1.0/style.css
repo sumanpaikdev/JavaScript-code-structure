@@ -59,3 +59,7 @@ h1{
     background-color: white;
     transition-duration: .2s;
 }
+#amountCard{
+    color: white;
+    margin-top: 5px;
+}

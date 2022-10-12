@@ -8,16 +8,22 @@ let printMessage = document.getElementById("description")
 let cardElement = document.getElementById("cardNumber")
 let sumElement = document.getElementById("sum")
 
-console.log(numberCardArray)
+// console.log(numberCardArray)
+let bids = {
+    name: "Mr. Black Jack:",
+    count: 200
+}
+let MoneyInput = document.getElementById("amountCard")
+MoneyInput.textContent = bids.name + " $"+ bids.count
 
 function getRandomCard() {
     let randNumber = Math.floor(Math.random() * 13) + 1
-    
-    if(randNumber > 10){
+
+    if (randNumber > 10) {
         return 10
-    }else if(randNumber === 1){
+    } else if (randNumber === 1) {
         return 11
-    }else{
+    } else {
         return randNumber
     }
 }
@@ -25,8 +31,8 @@ function getRandomCard() {
 function renderGame() {
 
     cardElement.textContent = "Cards: "
-    for(let i = 0; i < numberCardArray.length; i += 1){
-        cardElement.textContent +=  numberCardArray[i] + " "
+    for (let i = 0; i < numberCardArray.length; i += 1) {
+        cardElement.textContent += numberCardArray[i] + " "
     }
 
     sumElement.textContent = "Sum : " + sum
@@ -39,11 +45,11 @@ function renderGame() {
     } else {
         printMessage.textContent = "You are out of the game."
         online = false
-    }  
+    }
 }
 
 
-function startGame(){
+function startGame() {
     online = true
     let one = getRandomCard()
     let two = getRandomCard()
@@ -53,8 +59,11 @@ function startGame(){
 }
 
 function updateGame() {
-    let three = getRandomCard()
-    numberCardArray.push(three)
-    sum += three
-    renderGame()
+
+    if (Blackjack === false && online === true) {
+        let three = getRandomCard()
+        numberCardArray.push(three)
+        sum += three
+        renderGame()
+    }
 }
