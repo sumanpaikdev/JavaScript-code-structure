@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: rgba(255, 251, 236, 0.545);
+    margin: 40px auto;
+    width: 450px;
+    height: 450px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+    border-radius: 9px;
+    border: 3px solid rgba(128, 128, 128, 0.315);
+}
+h1{
+    font-family: 'Kaushan Script', cursive;
+    line-height: 1;
+    transform: rotate(-21deg);
+    color: rgb(255, 204, 0);
+    font-size: 45px;
+    text-shadow: 2px 2px 3px rgb(20, 20, 20);
+}
+.fight{
+    width: 330px;
+    height: 200px;
+    border: 3px solid rgba(255, 204, 0, 0.477);
+    border-radius: 9px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display:  flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 70px;
+    font-family: 'Kaushan Script', cursive;
+    color: rgb(255, 179, 0);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.833);
+}
+.btn{
+    width: 150px;
+    font-size: 18px;
+    color: rgb(61, 61, 61);
+    font-family:  cursive;
+    padding: 8px;
+    background-color: rgb(255, 204, 0);
+    border: 3px solid rgba(128, 128, 128, 0.46);
+    border-radius: 6px;
+}
+.btn:active{
+    border: 3px solid white;
+    background-color: rgb(255, 228, 96);
+}
