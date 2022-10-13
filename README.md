@@ -13,3 +13,6 @@ Deploy-Link: https://blackjack-game-fn-ver.netlify.app/
 
 ![Screenshot 2022-10-12 122943](https://user-images.githubusercontent.com/93247057/195272576-a45ff038-a485-4d8b-8cd5-3a1cf3de1219.png)
 
+# Emoji Fighters
+Deploy link: https://emoji-fighter-vs-game.netlify.app/
+![image](https://user-images.githubusercontent.com/93247057/195508950-3bd4a7a5-2c60-4d97-9d1c-8840e671f59a.png)
