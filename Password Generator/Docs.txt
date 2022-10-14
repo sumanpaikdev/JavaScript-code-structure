@@ -1,0 +1,10 @@
+1. Ability to set password length
+2. Add Copy On click
+3. Toggle symbols and numbers On/Off button
+4. Generate two random password when user clicks the button
+5. Each password should be 15 characters long
+
+
+
+const characters = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z","a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z", "0", "1", "2", "3", "4", "5", "6", "7", "8", "9","~","`","!","@","#","$","%","^","&","*","(",")","_","-","+","=","{","[","}","]",",","|",":",";","<",">",".","?",
+"/"];
