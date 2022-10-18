@@ -1,0 +1,50 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+}
+.container{
+    width: 500px;
+    border: 2px solid rgb(0, 132, 255);
+    border-radius: .3rem;
+    padding: 1rem;
+    height: auto;
+    margin: .3rem auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(199, 226, 255);
+}
+#input-element{
+    width: 100%;
+    padding: .6rem;
+    border: none;
+    outline: 2px solid rgb(139, 150, 184);
+    background-color: rgb(215, 235, 255);
+    font-size: 1rem;
+    margin-bottom: .8rem;
+    border-radius: .3rem;
+}
+#input-element:focus{
+    outline: 2px solid rgb(0, 132, 255);
+}
+#save-btn{
+    width: 7rem;
+    height: 2.5rem;
+    border: none;
+    background-color: rgb(0, 115, 255);
+    border-radius: .3rem;
+    color: white;
+    padding: .5rem;
+    font-size: .9rem;
+}
+#save-btn:active{
+    background-color: #3d8bff;
+}
+#ul-element{
+    max-width: 100px;
+    margin: 1rem;
+
+}

@@ -1,0 +1,22 @@
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    background-color: lightpink;
+}
+#container button{
+    width: 100px;
+    height: 50px;
+    background-color: rgb(255, 51, 51);
+    color: white;
+    font-size: 1rem;
+    border:none;margin-top: 2rem;
+}
+#container p{
+    color: red;
+    font-size: 1rem;
+}
+
