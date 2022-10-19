@@ -4,8 +4,14 @@
   box-sizing: border-box;
   -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
 }
+body{
+    min-width: 420px;
+    height: auto;
+    border-radius: 1.5rem;
+}
 .container{
-    width: 500px;
+    width: 400px;
+    width: 400px;
     border: 2px solid rgb(0, 132, 255);
     border-radius: .3rem;
     padding: 1rem;
@@ -46,5 +52,14 @@
 #ul-element{
     max-width: 100px;
     margin: 1rem;
+    
 
+
+}
+ul li{
+    list-style: none;
+}
+ul li a{
+    color: blue;
+    font-size: 1.2rem;
 }
