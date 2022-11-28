@@ -3,3 +3,9 @@ let b = prompt("enter a number: ")
 b = Number.parseInt(b)
 a.push(b)
 console.log(a)
+
+
+do{
+    a.push(b)
+}while(b=0)
+console.log(a)

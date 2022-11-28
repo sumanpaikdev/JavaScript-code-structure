@@ -1,14 +1,14 @@
 let myarr = [1, 2, 3, 6, 7, 8, 9]
 
 // classical for loop
-for(let i = 0; i < myarr.length; i++) {
-    console.log(i + " --> " + myarr[i])
-}
+// for(let i = 0; i < myarr.length; i++) {
+//     console.log(i + " --> " + myarr[i])
+// }
 
 // for each loop 
-myarr.forEach((arr)=> {
-    console.log(arr*2)
-})
+// myarr.forEach((arr)=> {
+//     console.log(arr*2)
+// })
 
 // Array.from() // html document collection
 
